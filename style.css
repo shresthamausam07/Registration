@@ -1,0 +1,83 @@
+  
+  /* Styling for Button */
+
+  .button{
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
+
+  }
+
+  #registerButton{
+    font-size: 16px;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  /* Styling for popup dialog box */
+
+  .dialog {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+
+  .dialog-content {
+    background-color: white;
+    padding: 20px 70px 20px 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+
+  .dialog-content h2{
+      text-align: center;
+      font-size: 25px;
+  }
+
+  .close-button {
+    position: absolute;
+    font-size: 20px;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+  }
+
+  /* Styling for the registration form */
+  .registration-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .registration-form label,
+  .registration-form input {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .registration-form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .registration-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
